@@ -14,8 +14,8 @@ In addition to that, the application includes a spellchecker service for TinyMCE
 Compatibility
 -------------
 
-- **Python**: 3.5-3.7
-- **Django**: 1.11-2.1
+- **Python**: 3.5-3.8
+- **Django**: 1.11-3.0
 
 License
 -------

@@ -31,8 +31,8 @@ about how to configure TimyMCE 4 editor widget.
 Compatibility
 -------------
 
-- **Python**: 3.5-3.7
-- **Django**: 1.11-2.1
+- **Python**: 3.5-3.8
+- **Django**: 1.11-3.0
 
 Quick Start
 ===========
