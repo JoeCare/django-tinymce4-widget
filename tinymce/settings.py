@@ -46,6 +46,3 @@ The default CSS is used to fix TinyMCE 4 position in Django Admin.
 """
 CALLBACKS = getattr(settings, "TINYMCE_CALLBACKS", {})
 """TinyMCE 4 calback JavaScript functions"""
-USE_FILEBROWSER = getattr(
-    settings, "TINYMCE_FILEBROWSER", "filebrowser" in settings.INSTALLED_APPS
-)

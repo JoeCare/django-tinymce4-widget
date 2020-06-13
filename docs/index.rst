@@ -7,10 +7,6 @@ editor widget that can be used in Django forms and models.
 The main difference  with the original fork is that it **does not** include any static files,
 it's using the TinyMCE from the CDN by default.
 
-**django-tinymce4-widget** can use `django-filebrowser`_ or `django-filebrowser-no-grappelli`_
-as a file manager for TinyMCE 4 to insert images and file links into edited text.
-In addition to that, the application includes a spellchecker service for TinyMCE 4 spellchecker plugin.
-
 Compatibility
 -------------
 
@@ -32,8 +28,6 @@ a JavaScript `TinyMCE`_ editor widget. If a version number is omitted, TinyMCE v
 
 .. _django-tinymce4-lite: https://github.com/romanvm/django-tinymce4-lite
 .. _TinyMCE 4: https://www.tinymce.com/
-.. _django-filebrowser: https://github.com/sehmaschine/django-filebrowser
-.. _django-filebrowser-no-grappelli: https://github.com/smacker/django-filebrowser-no-grappelli
 .. _TinyMCE: https://www.tinymce.com/
 
 Contents:

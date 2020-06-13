@@ -39,10 +39,6 @@ a spellcheck button to TinyMCE toolbar. Default: ``False``.
   your configuration, and add the necessary menu item/toolbar button. Also read `Language Configuration`_
   subsection about how to configure the spellchecker.
 
-``TINYMCE_FILEBROWSER`` -- enables file browser support in TinyMCE image and link dialogs.
-**tinymce4-widget** supports both `django-filebrowser`_ and  `django-filebrowser-no-grappelli`_ file browsers.
-Default: ``True`` if ``'filebrowser'`` is added to `INSTALLED_APPS`_, else ``False``.
-
 ``TINYMCE_JS_URL`` -- a path to TinyMCE JavaScript library.
 Default: :file:`{your_static_url}/tinymce/js/tinymce/tinymce.min.js`.
 The following example shows how to load the TinyMCE library from a CDN::
@@ -56,11 +52,6 @@ TinyMCE widget, for example, custom TinyMCE plugins. Default: None.
 content_css TinyMCE settings (see :ref:`Applying custom CSS<custom-css>`), this CSS is applied to the
 TinyMCE widget itself, for example to correct the widget position on a page.
 The default CSS here is rendered from a template and used to correct TinyMCE widget position in Django Admin interface.
-
-``TINYMCE_CALLBACKS`` -- allows to define custom TinyMCE callbacks, for example ``file_browser_callback``
-or ``spellchecker_callback``. This is a Python :class:`dict` where keys are the names of callbacks and values are
-JavaScript objects as Python strings. Default: ``{}`` (an empty :class:`dict`).
-Read `TinyMCE documentation`_ to learn about available callbacks.
 
 .. note:: Custom ``file_browser_callback`` and ``spellchecker_callback`` options defined in ``TINYMCE_CALLBACKS``
   override **tinymce4-widget** built-in callbacks.
@@ -101,8 +92,6 @@ using an archive manager, for example `7zip`_, and copy :file:`.dic` and :file:`
 Also you can completely override TinyMCE automatic language configuration by defining the necessary language options
 in `TINYMCE_DEFAULT_CONFIG`_.
 
-.. _django-filebrowser: https://github.com/sehmaschine/django-filebrowser
-.. _django-filebrowser-no-grappelli: https://github.com/smacker/django-filebrowser-no-grappelli
 .. _TinyMCE documentation: https://www.tinymce.com/docs/
 .. _LANGUAGE_CODE: https://docs.djangoproject.com/en/stable/ref/settings/#language-code
 .. _LANGUAGES: https://docs.djangoproject.com/en/stable/ref/settings/#languages
